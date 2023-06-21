@@ -1,0 +1,65 @@
+
+ 
+
+----------------------------------------------------------------------------
+
+ESDU International plc.
+
+PROGRAM A8913A
+
+ESDUpac Number:   A8913
+ESDUpac Title:    Transverse (through-the-thickness) shear stiffnesses
+                     of fibre reinforced composite laminated plates
+Data Item Number: 89013
+Data Item Title:  Transverse (through-the-thickness) shear stiffnesses
+                     of fibre reinforced composite laminated plates
+ESDUpac Version:  1.1 July 1991 -- Data Item Amendment A
+(See Data Item for full input/output specification and interpretation)
+
+----------------------------------------------------------------------------
+
+PLATE LAYER PROPERTIES AND CONSTRUCTION
+
+LAYER TYPE NUMBER =    1
+E(ALPHA)     =  .1380E+06   E(BETA)    =  .9300E+04  E(Z)        =  .9300E+04
+V(ALPHA,BETA)=  .3000E+00   V(BETA,Z)  =  .3000E+00  V(ALPHA,Z)  =  .3000E+00
+G(ALPHA,BETA)=  .4600E+04   G(BETA,Z)  =  .2300E+04  G(ALPHA,Z)  =  .4600E+04
+THICKNESS    =  .2500E+00   ANGLE(DEG) =  .0000E+00
+
+LAYER TYPE NUMBER =    2
+E(ALPHA)     =  .1380E+06   E(BETA)    =  .9300E+04  E(Z)        =  .9300E+04
+V(ALPHA,BETA)=  .3000E+00   V(BETA,Z)  =  .3000E+00  V(ALPHA,Z)  =  .3000E+00
+G(ALPHA,BETA)=  .4600E+04   G(BETA,Z)  =  .2300E+04  G(ALPHA,Z)  =  .4600E+04
+THICKNESS    =  .2500E+00   ANGLE(DEG) =  .3000E+02
+
+LAYER NUMBER   LAYER TYPE   THICKNESS    ANGLE DEGREES
+ IN STACK
+
+      1              1        .2500E+00     .0000E+00
+      2              2        .2500E+00     .3000E+02
+
+    A IN-PLANE STIFFNESS                     B COUPLED STIFFNESS
+
+   .555E+05    .722E+04    .104E+05        -.174E+04    .728E+03    .130E+04
+   .722E+04    .695E+04    .365E+04         .728E+03    .284E+03    .456E+03
+   .104E+05    .365E+04    .812E+04         .130E+04    .456E+03    .728E+03
+
+    B COUPLED STIFFNESS                      D FLEXURAL STIFFNESS
+
+  -.174E+04    .728E+03    .130E+04         .116E+04    .151E+03    .216E+03
+   .728E+03    .284E+03    .456E+03         .151E+03    .145E+03    .760E+02
+   .130E+04    .456E+03    .728E+03         .216E+03    .760E+02    .169E+03
+
+----------------------------------------------------------------------------
+
+
+****************************************************************************
+
+SHEAR STIFFNESSES
+
+
+Q(X) =   .1826E+04 GAMMA(XZ)  +    .3105E+03 GAMMA(YZ)
+Q(Y) =   .3105E+03 GAMMA(XZ)  +    .8566E+03 GAMMA(YZ)
+
+****************************************************************************
+

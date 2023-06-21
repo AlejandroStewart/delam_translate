@@ -1,0 +1,54 @@
+ESDU International plc
+
+README file for ESDUpac Number A8913
+ESDUpac Title:  TRANSVERSE (THROUGH-THE-THICKNESS) SHEAR STIFFNESSES
+                OF FIBRE REINFORCED COMPOSITE LAMINATED PLATES
+
+
+This diskette contains a copy, in ASCII format, of Program Number
+A8913, associated with Data Item Number 89013 which is part of the
+Structures Sub-series. Also included are example input and output files
+corresponding to the worked examples in the Data Item.
+
+It is essential that the Data Item be consulted for the full input/output
+specification and interpretation. Limitations on the use of the program
+are given in the Data Item. Guidance on copying, compilation and
+running the program will be found in the introductory pages of the
+Software Volume S/W 1. If you have any difficulty in using this
+ESDUpac please contact ESDU International and we will do all we can
+to assist you to overcome the problem.
+
+Every reasonable effort has been made to ensure that the program performs
+the intended calculations satisfactorily.  However, in common with other
+providers of software no representation as to the suitability or fitness
+of the program for any particular purpose is made and no liability for
+any loss occasioned by any persons as a direct or indirect result of use
+of the program whether arising from negligence or otherwise can be
+accepted.  In no event shall ESDU or any individuals associated with the
+development of the program be liable for any damages, including loss
+of profit or consequential loss arising out of or in connection with
+the program.
+
+Program A8913.FOR has a total variable and array size greater than
+64000 bytes. To use the program on an IBM DOS system it is necessary to
+compile the source code with an option that will make use of multiple
+data segments. For the Microsoft FORTRAN compiler, version 5.0, the
+/Gt option must be used to compile program.
+
+The files on this diskette and their sizes are listed below. If
+the file sizes differ from those given then the files may have been
+modified or possibly corrupted. If there is any doubt as to the
+status of this ESDUpac master diskette a replacement should be
+obtained from ESDU.
+
+    README           2916 bytes - this file.
+    A8913   .FOR    71414 bytes - source code for Program A8913.
+    IN8913  .01       225 bytes - input data for Example 1 of Data
+                                        Item No. 89013.
+    IN8913  .02       444 bytes - input data for Example 2 of Data
+                                        Item No. 89013.
+    IN8913  .03       930 bytes - input data for Example 3 of Data
+                                        Item No. 89013.
+    RS8913  .01      2527 bytes - output data corresponding to IN8913.01
+    RS8913  .02      2582 bytes - output data corresponding to IN8913.02
+    RS8913  .03      4789 bytes - output data corresponding to IN8913.03

@@ -1,0 +1,107 @@
+
+ 
+
+----------------------------------------------------------------------------
+
+ESDU International plc.
+
+PROGRAM A8913A
+
+ESDUpac Number:   A8913
+ESDUpac Title:    Transverse (through-the-thickness) shear stiffnesses
+                     of fibre reinforced composite laminated plates
+Data Item Number: 89013
+Data Item Title:  Transverse (through-the-thickness) shear stiffnesses
+                     of fibre reinforced composite laminated plates
+ESDUpac Version:  1.1 July 1991 -- Data Item Amendment A
+(See Data Item for full input/output specification and interpretation)
+
+----------------------------------------------------------------------------
+
+PLATE LAYER PROPERTIES AND CONSTRUCTION
+
+LAYER TYPE NUMBER =    3
+E(ALPHA)     =  .2500E+08   E(BETA)    =  .1000E+07  E(Z)        =  .1000E+07
+V(ALPHA,BETA)=  .2500E+00   V(BETA,Z)  =  .2500E+00  V(ALPHA,Z)  =  .2500E+00
+G(ALPHA,BETA)=  .5000E+06   G(BETA,Z)  =  .2000E+06  G(ALPHA,Z)  =  .5000E+06
+THICKNESS    =  .2000E-01   ANGLE(DEG) =  .0000E+00
+
+LAYER TYPE NUMBER =    8
+E(ALPHA)     =  .7000E+07   E(BETA)    =  .7000E+07  E(Z)        =  .7000E+07
+V(ALPHA,BETA)=  .3000E+00   V(BETA,Z)  =  .3000E+00  V(ALPHA,Z)  =  .3000E+00
+G(ALPHA,BETA)=  .2690E+07   G(BETA,Z)  =  .2690E+07  G(ALPHA,Z)  =  .2690E+07
+THICKNESS    =  .1000E-02   ANGLE(DEG) =  .0000E+00
+
+LAYER TYPE NUMBER =    5
+E(ALPHA)     =  .2500E+08   E(BETA)    =  .1000E+07  E(Z)        =  .1000E+07
+V(ALPHA,BETA)=  .2500E+00   V(BETA,Z)  =  .2500E+00  V(ALPHA,Z)  =  .2500E+00
+G(ALPHA,BETA)=  .5000E+06   G(BETA,Z)  =  .2000E+06  G(ALPHA,Z)  =  .5000E+06
+THICKNESS    =  .2000E-01   ANGLE(DEG) =  .3000E+02
+
+LAYER TYPE NUMBER =    6
+E(ALPHA)     =  .2500E+08   E(BETA)    =  .1000E+07  E(Z)        =  .1000E+07
+V(ALPHA,BETA)=  .2500E+00   V(BETA,Z)  =  .2500E+00  V(ALPHA,Z)  =  .2500E+00
+G(ALPHA,BETA)=  .5000E+06   G(BETA,Z)  =  .2000E+06  G(ALPHA,Z)  =  .5000E+06
+THICKNESS    =  .2000E-01   ANGLE(DEG) = -.4500E+02
+
+LAYER TYPE NUMBER =    7
+E(ALPHA)     =  .2500E+08   E(BETA)    =  .1000E+07  E(Z)        =  .1000E+07
+V(ALPHA,BETA)=  .2500E+00   V(BETA,Z)  =  .2500E+00  V(ALPHA,Z)  =  .2500E+00
+G(ALPHA,BETA)=  .5000E+06   G(BETA,Z)  =  .2000E+06  G(ALPHA,Z)  =  .5000E+06
+THICKNESS    =  .2000E-01   ANGLE(DEG) =  .9000E+02
+
+LAYER TYPE NUMBER =    4
+E(ALPHA)     =  .4000E+05   E(BETA)    =  .4000E+05  E(Z)        =  .5000E+06
+V(ALPHA,BETA)=  .2500E+00   V(BETA,Z)  =  .1000E+00  V(ALPHA,Z)  =  .1000E+00
+G(ALPHA,BETA)=  .1600E+05   G(BETA,Z)  =  .6000E+05  G(ALPHA,Z)  =  .6000E+05
+THICKNESS    =  .1000E+01   ANGLE(DEG) =  .0000E+00
+
+LAYER NUMBER   LAYER TYPE   THICKNESS    ANGLE DEGREES
+ IN STACK
+
+      1              3        .2000E-01     .0000E+00
+      2              8        .1000E-02     .0000E+00
+      3              5        .2000E-01     .3000E+02
+      4              3        .2000E-01     .0000E+00
+      5              6        .2000E-01    -.4500E+02
+      6              7        .2000E-01     .9000E+02
+      7              6        .2000E-01     .4500E+02
+      8              3        .2000E-01     .0000E+00
+      9              5        .2000E-01    -.3000E+02
+     10              3        .2000E-01     .0000E+00
+     11              4        .1000E+01     .0000E+00
+     12              3        .2000E-01     .0000E+00
+     13              5        .2000E-01     .3000E+02
+     14              3        .2000E-01     .0000E+00
+     15              6        .2000E-01    -.4500E+02
+     16              7        .2000E-01     .9000E+02
+     17              6        .2000E-01     .4500E+02
+     18              3        .2000E-01     .0000E+00
+     19              5        .2000E-01    -.3000E+02
+     20              3        .2000E-01     .0000E+00
+
+    A IN-PLANE STIFFNESS                     B COUPLED STIFFNESS
+
+   .584E+07    .928E+06    .000E+00        -.266E+04   -.107E+04   -.276E+05
+   .928E+06    .199E+07    .000E+00        -.107E+04   -.410E+04   -.314E+04
+   .000E+00    .000E+00    .102E+07        -.276E+05   -.314E+04   -.127E+04
+
+    B COUPLED STIFFNESS                      D FLEXURAL STIFFNESS
+
+  -.266E+04   -.107E+04   -.276E+05         .204E+07    .322E+06   -.276E+02
+  -.107E+04   -.410E+04   -.314E+04         .322E+06    .685E+06    .000E+00
+  -.276E+05   -.314E+04   -.127E+04        -.276E+02    .000E+00    .354E+06
+
+----------------------------------------------------------------------------
+
+
+****************************************************************************
+
+SHEAR STIFFNESSES
+
+
+Q(X) =   .8345E+05 GAMMA(XZ)  +   -.1240E+02 GAMMA(YZ)
+Q(Y) =  -.1240E+02 GAMMA(XZ)  +    .8060E+05 GAMMA(YZ)
+
+****************************************************************************
+
